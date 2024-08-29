@@ -3,7 +3,6 @@ function getcontent(evt, content) {
     var tabcontent = document.getElementsByClassName("tabcontent");
     for (let i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
-        console.log(i);
     }
     
     var tablinks = document.getElementsByClassName("tablink");
