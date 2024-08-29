@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c3e50;
+}
+.content{
+    background-color: #3d8287;
+    height: 200px;
+}
+.tab {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.tab a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.tab .active {
+    color: #f1f1f1;
+}
+
+.tab a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+#cloud-img {
+    width: 100px;
+    height: 100px;
+}
+
+.contentheading{
+    height: 85px;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .tab {
+        width: 50px;
+    }
+
+    .tab a {
+        text-align: center;
+    }
+
+    .main {
+        margin-left: 50px;
+    }
+}
+
+.tempreture, .location, .wind, .wind-dir, .humidity {
+    font-size: 45px;
+}
+
+.colour1 {
+    background-color: aqua;
+}
+
+.colour2 {
+    background-color: blue;
+}
+
+.colour3 {
+    background-color: blueviolet;
+}
+
+.colour4 {
+    background-color: brown;
+}
+
+.colour5 {
+    background-color: chartreuse;
+}
+
+.colour6 {
+    background-color: yellow;
+}
