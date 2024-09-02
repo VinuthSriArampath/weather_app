@@ -29,7 +29,7 @@ function myMap(lat,lng) {
 function searcharea(){
     var location=document.getElementById("txtlocation").value;
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key=edfa7945f1a74d22bf4115257242908&q=${location}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=edfa7945f1a74d22bf4115257242908&q=${location}`)
         .then(res=> res.json())
         .then(data =>{
             myMap(data.location.lat,data.location.lon)
